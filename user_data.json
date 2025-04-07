@@ -1,0 +1,10 @@
+import json
+
+
+with open("user_data.json", "w") as file:
+    json.dump(data, file, indent=4)
+
+print("User data saved to user_data.json")
+
+
+
